@@ -1,0 +1,371 @@
+html:focus-within{
+    scroll-behavior: smooth !important;
+}
+body, html{
+    scrollbar-color: #888 #f1f1f1;
+    scroll-behavior: smooth !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #32a2a8;
+    color: #333;
+    margin: 0;
+    scroll-behavior: smooth !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1.2em;
+    height: 0.4cm;
+    font-family:monospace;
+    font-size: large;
+    
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color:none;
+    padding: 40px 0;
+    margin-top: 0cm;
+    
+}
+
+.card{
+    border-radius: 25px;
+    background-color: #942727;
+    width: 320px;
+    height: 270px;
+    background-image: url('Ecom Hub Dash Individual.png');
+    background-size: cover;
+    
+
+
+}
+
+.card:hover{
+    background-image: url('Ecommerce Hub DashT.png');
+    cursor: pointer;
+}
+
+
+    
+
+.first{
+    background-color: #000000;
+    background-image: url('Ecom Hub Dash Individual.png');
+}
+
+ 
+
+
+.slide-content{
+    margin: 0px 40px;
+    color: #000000;
+    height: 6cm;
+    margin-bottom: 30px;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+
+.pageButtons {
+    text-align:center;
+    color:#965555;
+    border-style:hidden;
+    border-width:0.1cm;
+    padding-left:0%;
+    margin-left:0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    padding-top: 0cm;
+    
+}
+
+.buttontab {
+    background-color:transparent;
+    border:none;
+    font-family:monospace;
+    color: #f8f8f8;
+    font-size: large;
+    padding: 0.3cm;
+    cursor: pointer;
+    font-style:oblique;
+    margin-top: 0cm;
+    padding-top: 0cm;
+    font-weight: bold;
+    
+
+
+    
+    
+}
+
+.nav-bar button {
+    background-color: #32a2a8;
+    color: #b32121;
+    margin-top: 0cm;
+    padding-top: 0cm;
+    
+   
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+    color: #fff;
+}
+
+.project {
+    width: 30%;
+    margin: 1em;
+    background-color: transparent;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: left;
+    color: #fff;
+}
+
+ 
+
+
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color:transparent; 
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 0.1cm;
+    bottom: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #32a2a8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #32a2a8;
+}
+
+
+button:hover {
+    background-color: #126569;
+}
+
+
+
+
+
+
+#initialPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32a2a8;
+    color: #fff;
+    text-align: center;
+    padding: 0em;
+    height: 100vh;
+    font-family:monospace;
+    font-size: xx-large;
+    letter-spacing: 0cm;
+    line-height: 0cm;
+    
+}
+
+#initialPage h1{
+    font-size: 42px;
+    
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #a0a0a0, 4px 4px 0px #5c5b5b;
+    
+}
+
+
+#aboutMe{
+    background-color: #4b4949;
+    color: #fff;
+    text-align: center;
+    padding: 0em;
+    height: 100vh;
+    font-family:monospace;
+    font-size: x-large;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32a2a8;
+    color: #fff;
+    text-align: center;
+    padding: 0em;
+    height: 100vh;
+    font-family:monospace;
+    font-size: xx-large;
+    letter-spacing: 0cm;
+    line-height: 0cm;
+    margin-top: 1cm;
+    
+    
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#projects h2{
+    margin-top:2cm;
+    padding: 0cm;
+}
+
+
+#initialPage h1:hover{
+    color: #000000;
+}
+
+#contact{
+    height: 100vh;
+    background-color: #4b4949;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0em;
+    height: 100vh;
+    font-family:monospace;
+    font-size: xx-large;
+    letter-spacing: 0cm;
+    line-height: 0cm;
+    
+}
+
+
+section{
+    height: 100vh; /* Set sections to occupy full viewport height */     
+}
+
+.languages{
+    height: 2cm;
+    display: flex;
+    
+    
+}
+
+.language{
+    height: 2cm;
+    margin: 0.3cm;
+    transition: transform 0.3s;
+    
+}
+
+.language:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+#text{
+    margin-top: 2cm;
+}
+
+
+
+
+
+
+
+.faceimg{
+    width:160px;
+    height:200px;
+    border: 3px solid #a31818;
+    margin-left: 0cm;
+    
+}
+.faceimg:hover{
+    border: 3px solid #2f2d9c;
+}
+
+.hubloginimg{
+    width:100%;
+    height:100%;
+    /*border: 3px solid #a31818;-->*/
+    margin: 0cm;
+    padding: 0cm;
+    align-content: start;
+    
+}
+
+.hubloginimg:hover{
+    opacity: 0;
+    
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set the color of the track (the area behind the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Set the color of the thumb (the draggable handle) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Set the color of the thumb on hover */
+}
