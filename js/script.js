@@ -9,7 +9,7 @@ function changeText(newText) {
 
 
 var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,

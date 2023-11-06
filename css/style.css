@@ -30,7 +30,7 @@ header {
 
 .slide-container{
     max-width: 1120px;
-    width: 100%;
+    width: 70%;
     background-color:none;
     padding: 40px 0;
     margin-top: 0cm;
@@ -41,9 +41,9 @@ header {
     border-radius: 25px;
     background-color: #942727;
     width: 320px;
-    height: 270px;
+    height: 300px;
     background-image: url('Ecom Hub Dash Individual.png');
-    background-size: cover;
+    background-size:cover;
     
 
 
@@ -66,13 +66,15 @@ header {
 
 
 .slide-content{
-    margin: 0px 40px;
+    margin: 0px 130px;
     color: #000000;
-    height: 6cm;
+    height: 10cm;
     margin-bottom: 30px;
-    background-size: cover;
+    background-size:cover;
     opacity: 1;
 }
+
+
 
 
 
@@ -118,7 +120,7 @@ header {
 }
 
 .projects {
-    display: flex;
+    display:block;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 2em;
@@ -205,16 +207,20 @@ button:hover {
     height: 100vh;
     font-family:monospace;
     font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
     letter-spacing: 0cm;
-    line-height: 0cm;
+    line-height: 50px;
+    overflow: hidden;
     
 }
 
 #initialPage h1{
     font-size: 42px;
-    
+    display: flex;
     letter-spacing: 2px;
     color: #ffffff;
+    margin: 0;
     text-shadow: 2px 2px 0px #a0a0a0, 4px 4px 0px #5c5b5b;
     
 }
@@ -224,12 +230,15 @@ button:hover {
     background-color: #4b4949;
     color: #fff;
     text-align: center;
-    padding: 0em;
+    padding: 2em;
     height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin-bottom: 1cm;
     font-family:monospace;
     font-size: x-large;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 
@@ -289,7 +298,7 @@ button:hover {
     font-family:monospace;
     font-size: xx-large;
     letter-spacing: 0cm;
-    line-height: 0cm;
+    line-height: 20px;
     
 }
 
@@ -319,7 +328,7 @@ section{
 
 
 #text{
-    margin-top: 2cm;
+    margin-top: 10px;
 }
 
 
@@ -368,4 +377,14 @@ section{
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555; /* Set the color of the thumb on hover */
+}
+
+@media(max-width:800px){
+    .language{height: 1cm;
+    
+    }
+    .languages{display: block;}
+    #initialPage h1{
+        font-size: xx-large;
+    }
 }
