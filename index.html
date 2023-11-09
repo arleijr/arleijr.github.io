@@ -13,21 +13,31 @@
 
 <body>
     <header>
-        <nav class="pageButtons">
-            <button class="buttontab" onclick="scrollToSection('initialPage')">Início</button>
-            <button class="buttontab" onclick="scrollToSection('aboutMe')">Sobre mim</button>
-            <button class="buttontab" onclick="scrollToSection('projects')">Projetos</button>
-            <button class="buttontab" onclick="scrollToSection('contact')">Contato</button>
-            
-        </nav>
+        <div class="headerbar">
+            <div class="divlanguages">Language
+                <select name="languages" id="languageSelector">
+                    <option class="language" value="pt"><img src="js.png" alt="">Português</option> 
+                    <option class="language" value="en"><img src="js.png" alt="">English</option>
+                    <option class="language" value="es"><img src="js.png" alt="">Espanõl</option>
+                </select>
+            </div>
+            <nav class="pageButtons">
+                
+                <button id="home-btn" class="buttontab" onclick="scrollToSection('initialPage')">Início</button>
+                <button id="about-btn" class="buttontab" onclick="scrollToSection('aboutMe')">Sobre mim</button>
+                <button id="project-btn" class="buttontab" onclick="scrollToSection('projects')">Projetos</button>
+                <button id="contact-btn" class="buttontab" onclick="scrollToSection('contact')">Contato</button>
+                
+            </nav>
+        </div>
     </header>
 
     
 
     <main>
         <section id="initialPage">
-            <h1>Hi, I'm Arlei Junior</h1>
-            <h1>Software Developer, Front End & Content Designer</h1>
+            <h1 id="title">Hi, I'm Arlei Junior</h1>
+            <h1 id="title2">Software Developer, Front End & Content Designer</h1>
             
         </section>
 
@@ -37,12 +47,12 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <!--<img class="faceimg" src="profile-blue.png" alt="Uma foto do meu rosto com um fundo azul">-->
             
-            <div class="languages">
-                <img class="language" id="python" src="python.png" alt="ícone da linguagem de programação python" onclick="changeText('Django<br>Pandas')">
-                <img class="language" id="js" src="js.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web<br>Design')">
-                <img class="language" id="database" src="database.png" alt="ícone da linguagem de programação java script" onclick="changeText('CRUD<br>MySQL<br>PostgreSQL<br>NoSQL<br>')">
-                <img class="language" id="react" src="react.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web<br>Pandas')">
-                <img class="language" id="c" src="c.png" alt="ícone da linguagem de programação java script" onclick="changeText('Games<br>Pandas')">
+            <div class="skills">
+                <img class="skill" id="python" src="python.png" alt="ícone da linguagem de programação python" onclick="changeText('Django<br>Pandas')">
+                <img class="skill" id="js" src="js.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web<br>Design')">
+                <img class="skill" id="database" src="database.png" alt="ícone da linguagem de programação java script" onclick="changeText('CRUD<br>MySQL<br>PostgreSQL<br>NoSQL<br>')">
+                <img class="skill" id="react" src="react.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web<br>Pandas')">
+                <img class="skill" id="c" src="c.png" alt="ícone da linguagem de programação java script" onclick="changeText('Games<br>Pandas')">
             </div>
             <div>
                 <p id="text"></p>

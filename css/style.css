@@ -4,6 +4,8 @@ html:focus-within{
 body, html{
     scrollbar-color: #888 #f1f1f1;
     scroll-behavior: smooth !important;
+    width: 100vw;
+    height: 100vw;
 }
 body {
     font-family: Arial, sans-serif;
@@ -14,18 +16,25 @@ body {
 }
 
 header {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: transparent;
     color: #fff;
-    text-align: center;
-    padding: 1.2em;
+    text-align:center;
+    padding: 0em;
     height: 0.4cm;
     font-family:monospace;
     font-size: large;
+    margin-top: 0cm;
+    z-index: 10;
     
+}
+
+.headerbar{
+    margin-top: 10px;
+    justify-content: flex-start;
 }
 
 .slide-container{
@@ -50,6 +59,8 @@ header {
     margin-bottom: 0px;
     
     
+    
+    
 
 
 }
@@ -63,6 +74,7 @@ header {
     height: 100%;
     width: 100%;
     border-radius: 25px;
+    
 }
 
 
@@ -84,6 +96,14 @@ header {
     background-size:cover;
     opacity: 1;
     margin-top: 30px;
+    
+}
+
+.headerbar{
+    display: flex;
+    z-index: 999;
+    
+
 }
 
 
@@ -98,8 +118,9 @@ header {
     padding-left:0%;
     margin-left:0cm;
     margin-right: 0cm;
-    margin-top: 0cm;
+    margin-top: 10px;
     padding-top: 0cm;
+    width: 100%;
     
 }
 
@@ -322,7 +343,7 @@ section{
     height: 100vh; /* Set sections to occupy full viewport height */     
 }
 
-.languages{
+.skills{
     height: 2cm;
     display: flex;
     margin: 0px;
@@ -331,14 +352,14 @@ section{
     
 }
 
-.language{
+.skill{
     height: 2cm;
     margin: 0.3cm;
     transition: transform 0.3s;
     
 }
 
-.language:hover{
+.skill:hover{
     transform: translateY(-10px);
     cursor: pointer;
 }
@@ -346,6 +367,13 @@ section{
 
 #text{
     margin-top: 10px;
+}
+
+
+.select option img{
+    width: 30px;
+    margin-right: 10px;
+
 }
 
 
