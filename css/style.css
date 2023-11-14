@@ -6,6 +6,7 @@ body, html{
     scroll-behavior: smooth !important;
     width: 100vw;
     height: 100vw;
+    
 }
 body {
     font-family: Arial, sans-serif;
@@ -13,13 +14,14 @@ body {
     color: #333;
     margin: 0;
     scroll-behavior: smooth !important;
+    overflow-x: hidden;
 }
 
 header {
     position:fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: transparent;
     color: #fff;
     text-align:center;
@@ -28,7 +30,24 @@ header {
     font-family:monospace;
     font-size: large;
     margin-top: 0cm;
+    
     z-index: 10;
+    
+}
+
+#languageSelector{
+    border: #126569 solid;
+    color: white;
+    background-color: #126569;
+    font: 15px times;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.divlanguages{
+    font: 17px times;
+    text-align:center;
     
 }
 
@@ -51,7 +70,7 @@ header {
 
 .card{
     border-radius: 25px;
-    background-color: #942727;
+    background-color: #4b4949;
     width: 320px;
     height: 100%;
     /*background-image: url('Ecom Hub Dash Individual.png');*/
@@ -110,6 +129,8 @@ header {
 
 
 
+
+
 .pageButtons {
     text-align:center;
     color:#965555;
@@ -117,7 +138,7 @@ header {
     border-width:0.1cm;
     padding-left:0%;
     margin-left:0cm;
-    margin-right: 0cm;
+    margin-right: 110px;
     margin-top: 10px;
     padding-top: 0cm;
     width: 100%;
@@ -185,15 +206,26 @@ footer {
     width: 100%;
     height: 0.1cm;
     bottom: 0;
+    opacity: 0;
 }
+
+
 
 form {
     max-width: 600px;
     margin: 0 auto;
     padding: 2em;
-    background-color: #fff;
+    background-color:#32a2a8;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    
+    
+}
+
+form label{
+    line-height: 35px;
+    
 }
 
 input, textarea {
@@ -205,8 +237,12 @@ input, textarea {
 }
 
 input[type="submit"] {
-    background-color: #32a2a8;
+    background-color:black;
     color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
     border: none;
     cursor: pointer;
     padding: 1em 2em;
@@ -215,7 +251,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #32a2a8;
+    background-color:#333;
 }
 
 
@@ -366,8 +402,10 @@ section{
 
 
 #text{
-    margin-top: 10px;
+    margin-top: 35px;
 }
+
+
 
 
 .select option img{
@@ -425,10 +463,10 @@ section{
 }
 
 @media(max-width:800px){
-    .language{height: 1cm;
+    .skill{height: 1cm;
     
     }
-    .languages{display: block;}
+    .skills{display: block;}
     #initialPage h1{
         font-size: xx-large;
     }
@@ -453,4 +491,8 @@ section{
     }
     .slide-content{margin: 0px 30px;
     margin-bottom: 0cm;}
+    .faceimg{
+        width: 130px;
+        height: 170px;
+    }
 }

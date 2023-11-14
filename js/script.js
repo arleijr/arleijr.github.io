@@ -6,12 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectbtn = document.getElementById('project-btn');
     const contactbtn = document.getElementById('contact-btn');
     const languageSelector = document.getElementById('languageSelector');
+    const abouth2 = document.getElementById('about-h2')
 
     // Define your content in different languages
     const content = {
-        en: { title: "Hi, I'm Arlei Junior", content: 'Software Developer, Front End & Content Designer', homebtn: "Home", aboutbtn: "About Me", projectbtn: "Projects", contactbtn: "Contact" },
-        pt: { title: "Olá, Eu sou Arlei Junior", content: "Software Developer, Front End & Content Designer", homebtn: "Início", aboutbtn: "Sobre Mim", projectbtn: "Projetos", contactbtn: "Contatos" },
-        es: { title: 'Hola, soy Arlei Junior', content: 'Software Developer, Front End & Content Designer', homebtn: "Inicio", aboutbtn: "Sobre mi", projectbtn: "Projetos", contactbtn: "Contatos" }
+        en: { title: "Hi, I'm Arlei Junior", content: 'Software Developer, Front End & Content Designer', homebtn: "Home", aboutbtn: "About Me", projectbtn: "Projects", contactbtn: "Contact", abouth2:"About me" },
+        pt: { title: "Olá, Eu sou Arlei Junior", content: "Software Developer, Front End & Content Designer", homebtn: "Início", aboutbtn: "Sobre Mim", projectbtn: "Projetos", contactbtn: "Contatos", abouth2:"Sobre mim" },
+        es: { title: 'Hola, soy Arlei Junior', content: 'Software Developer, Front End & Content Designer', homebtn: "Inicio", aboutbtn: "Sobre mi", projectbtn: "Projetos", contactbtn: "Contatos", abouth2:"Sobre mi" }
     };
 
     // Function to update the content based on the selected language
@@ -23,6 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
         aboutbtn.textContent = content[selectedLanguage].aboutbtn;
         projectbtn.textContent = content[selectedLanguage].projectbtn;
         contactbtn.textContent = content[selectedLanguage].contactbtn;
+        abouth2.textContent = content[selectedLanguage].abouth2;
+
     }
 
     // Add an event listener to the language selector to call the updateContent function
@@ -59,3 +62,5 @@ var swiper = new Swiper(".slide-content", {
     prevEl: ".swiper-button-prev",
     },
 });
+
+
