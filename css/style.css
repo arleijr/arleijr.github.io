@@ -47,8 +47,13 @@ header {
 
 .divlanguages{
     font: 17px times;
-    text-align:center;
+    text-align:left;
+    line-height: 0cm;
     
+}
+
+#language{
+    margin-left: 10px;
 }
 
 .headerbar{
@@ -290,9 +295,10 @@ button:hover {
     letter-spacing: 2px;
     color: #ffffff;
     margin: 0;
-    text-shadow: 2px 2px 0px #a0a0a0, 4px 4px 0px #5c5b5b;
-    
+    text-shadow: 2px 2px 0px rgb(143, 143, 143), 4px 4px 0px black;
+    transition: transform 0.3s;  
 }
+
 
 
 #aboutMe{
@@ -353,7 +359,8 @@ button:hover {
 
 
 #initialPage h1:hover{
-    color: #000000;
+    color: #535353;
+    transform: translateY(-10px);
 }
 
 #contact{
@@ -401,6 +408,7 @@ section{
 }
 
 
+
 #text{
     margin-top: 35px;
 }
@@ -414,9 +422,23 @@ section{
 
 }
 
+.contacts{
+    height: 2cm;
+    display: flex;
+    margin: 0px;
+    margin-bottom: 70px;
+}
 
 
 
+.link{
+    opacity: 1;
+}
+
+.links{
+    line-height: 0cm;
+    margin: 1cm;
+}
 
 
 
@@ -494,5 +516,9 @@ section{
     .faceimg{
         width: 130px;
         height: 170px;
+    }
+    .contacts{
+        display: block;
+        margin-bottom: 300px;
     }
 }

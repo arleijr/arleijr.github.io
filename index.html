@@ -14,7 +14,8 @@
 <body>
     <header>
         <div class="headerbar">
-            <div class="divlanguages">Language
+            <div  class="divlanguages">
+                <p id="language" >Idioma/Language</p>
                 <select name="languages" id="languageSelector">
                     <option class="language" value="pt"><img src="js.png" alt="">Português</option> 
                     <option class="language" value="en"><img src="js.png" alt="">English</option>
@@ -36,24 +37,26 @@
 
     <main>
         <section id="initialPage">
-            <h1 id="title">Hi, I'm Arlei Junior</h1>
-            <h1 id="title2">Software Developer, Front End & Content Designer</h1>
+            <h1 class="animate-charcter" id="title">Hi, I'm Arlei Junior</h1>
+            <h1 class="animate-charcter" id="title2">Software Developer, Front End & Content Designer</h1>
             
         </section>
 
         <section id="aboutMe">
             <h2 id="about-h2">Sobre mim</h2>
-            <img src="profile-blue.png" alt="" class="faceimg">
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <!--<img class="faceimg" src="profile-blue.png" alt="Uma foto do meu rosto com um fundo azul">-->
             
             <div class="skills">
-                <img class="skill" id="python" src="python.png" alt="ícone da linguagem de programação python" onclick="changeText('Django - Pandas')">
-                <img class="skill" id="js" src="js.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web - Design')">
+                <img class="skill" id="python" src="python.png" alt="ícone da linguagem de programação python" onclick="changeText('Django - Pandas - Numpy - AI(Scikit, Tensorflow, Pytorch) - Selenium - Playwright - Request - QT')">
                 <img class="skill" id="database" src="database.png" alt="ícone da linguagem de programação java script" onclick="changeText('CRUD - MySQL - PostgreSQL - NoSQL')">
-                <img class="skill" id="react" src="react.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web - Pandas')">
-                <img class="skill" id="c" src="c.png" alt="ícone da linguagem de programação java script" onclick="changeText('Games - Pandas')">
+                <img class="skill" id="js" src="js.png" alt="ícone da linguagem de programação java script" onclick="changeText('Web - NodeJs - React - HTML - CSS')">
+                
+            
+                <img class="skill" id="c" src="c.png" alt="ícone da linguagem de programação java script" onclick="changeText('Games - Unity')">
+                <img class="skill" id="c" src="plus.png" alt="ícone da linguagem de programação java script" onclick="changeText('Excel - PowerBi - SAP - Photoshop - Canva - Video - Audio')">
             </div>
                                                 
             <div class="textdiv">
@@ -65,7 +68,7 @@
         
 
         <section id="projects">
-            <h1>Projetos</h1>
+            <h1 id="project-h1">Projetos</h1>
            <div class="slide-container swiper">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
@@ -107,20 +110,31 @@
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Your contact information goes here.</p>
-            <form action="form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-        
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-        
-                <input type="submit" value="Submit">
-            </form>
+            <h2 id="contact-h1">Contact</h2>
+            <div class="contacts">
+                <div class="links">
+                    <a class="link" target="_blank" href="mailto:arleijr.dev@gmail.com" title="arleijr.dev@gmail.com">
+                        <img class="skill" src="email.png" alt="">
+                    
+                    </a>
+                    <p>Email</p>
+                </div>
+                <div class="links">
+                    <a class="link" target="_blank" href="http://www.linkedin.com/in/arleijr" title="linkedin.com/in/arleijr">
+                        <img class="skill" src="linkedin.png" alt="">
+                    </a>
+                    <p>LinkedIn</p>
+                </div>
+                
+                <div class="links">
+                    <a class="link" target="_blank" href="http://www.github.com/arleijr" title="github.com/arleijr">
+                        <img class="skill" src="github.png" alt="">
+                    </a>
+                    <p>Github</p>
+                </div>
+                
+            </div>
+            
         </section>
     </main>
 
