@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectbtn = document.getElementById('project-btn');
     const contactbtn = document.getElementById('contact-btn');
     const languageSelector = document.getElementById('languageSelector');
-    const abouth2 = document.getElementById('about-h2')
-    const description = document.getElementById('description')
-    const projecth1 = document.getElementById('project-h1')
-    const contacth1 = document.getElementById('contact-h1')
-    const language = document.getElementById('language')
+    const abouth2 = document.getElementById('about-h2');
+    const description = document.getElementById('description');
+    const projecth1 = document.getElementById('project-h1');
+    const contacth1 = document.getElementById('contact-h1');
+    const language = document.getElementById('language');
 
     // Define your content in different languages
     const content = {
